@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Intro de HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="container-nav">
+        <nav class="navbar" role="navigation">
+            <a href="index.html" class="brand">Mi página web</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="container">
+                <h1>Bienvenidos a mi primer Website con Egg</h1>
+                <section>
+                    <h2>Presentación</h2>
+                    <p>Soy Melissa, ¡y esta es mi primera página web con Egg!</p>
+                    <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+                </section>
+                <section>
+                    <h2>Lo que se viene...</h2>
+                    <p>
+                        A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán
+                        a
+                        crear una base sólida en el desarrollo web front-end.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    
+        <!--Audiovisual-->
+
+        <!--Footer/ Pie de página-->
+
+        <footer class="text-center text-white" style="background-color: #ED8E6E;" width="200px" padding="100%">
+            <!-- Grid container -->
+            <div class="container p-4">
+              <!-- Section: Iframe -->
+              <section class="">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                      <iframe
+                        class="shadow-1-strong rounded"
+                        src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                        title="YouTube video"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <button onClick="showAlert()" aria-label="Haz clic en mí" id="button">¡Haz clic en mí!</button>
+              <!-- Section: Iframe -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
